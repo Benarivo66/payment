@@ -1,0 +1,33 @@
+{
+  "name": "payment",
+  "version": "1.0.0",
+  "description": "payment integration for microservice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthony-deca/payment.git"
+  },
+  "keywords": [
+    "paystack",
+    "payment",
+    "gateway"
+  ],
+  "author": "Anthony Izekor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anthony-deca/payment/issues"
+  },
+  "homepage": "https://github.com/anthony-deca/payment#readme",
+  "dependencies": {
+    "db-methods": "/Users/Mac/Documents/gRPC_Server/grpc_server_database",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16",
+    "request": "^2.88.2"
+  }
+}
